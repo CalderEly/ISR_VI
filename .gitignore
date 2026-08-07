@@ -1,0 +1,60 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# Linux
+.fuse_hidden
+.directory
+.Trash-*
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Programming Languages & Packages
+# ==========================================
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Java / Maven / Gradle
+target/
+.gradle/
+build/
+
+# ==========================================
+# Logs, Databases, and Environment Secrets
+# ==========================================
+*.log
+*.sqlite
+.env
+.env.local
+.env.production
