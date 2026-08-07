@@ -1,3 +1,5 @@
+import math
+
 import torch
 
 from SpikeFunc import SpikeFunc
@@ -6,7 +8,10 @@ class LiFLayer:
     def __init__(self, threshold, decay, num_in, num_neurons):
         self.threshold = threshold
         self.decay = decay
-        self.W = (torch.randn(num_neurons, num_in) * 0.5).requires_grad_(True)
+
+        std = math.sqrt(2 / num_in)
+
+        self.W = (torch.randn(num_neurons, num_in) * std).requires_grad_(True)
 
     def forward(self, U, S, x):
         
