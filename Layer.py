@@ -8,6 +8,7 @@ class LiFLayer:
     def __init__(self, threshold, decay, num_in, num_neurons):
         self.threshold = threshold
         self.decay = decay
+        self.num_neurons = num_neurons
 
         std = math.sqrt(2 / num_in)
 
@@ -22,3 +23,6 @@ class LiFLayer:
         S =  SpikeFunc.apply(U - self.threshold)  # Compute the spikes based on the updated potential
 
         return U, S
+
+    def get_num_neurons(self):
+        return self.num_neurons
