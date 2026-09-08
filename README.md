@@ -2,7 +2,7 @@
 Research Plan Versions: https://docs.google.com/document/d/1cpaLidQlgMXAjLGeAQVMJMn7QAF9FM-7QrrRme_I-cA/edit?usp=sharing 
 
 Items to research:
- 1. Heterogeneuos heurons
+ 1. Heterogeneuos neurons
  2. Structural plasticity
  3. Methods for measuring success
 
