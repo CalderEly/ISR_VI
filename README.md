@@ -16,17 +16,8 @@ Institustions for networking:
 TODO
 ```
 
-### Switch to Split-N-MINST
-- Keep 10 output layer/ single head
-- Full 10 way softmax cross-entropy eval on every task
-- Full 10 way argmax at eval
--  #### Metrics
-   - 2 Parallel Matricies
-   - Full matrix: standard 10 way argmax accuracy. (Recency bias and representational forgetting)
-   - Restricted Matrix: argmax restricted to j only. This isolates representational forgetting
-   - ACC and BWT compute on both matricies
-   - No forward transfer
-- 
+### Develop First Model
+Data storage system - Regulate batches to RAM, SSD, GPU respectively - Call Calder for more info bc hes going to ABbys volleyball
 
 
 
