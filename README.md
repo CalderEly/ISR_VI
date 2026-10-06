@@ -24,7 +24,7 @@ TODO
 
   ### General rules
   
-  - **Batched everything.** All methods take and return arrays/tensors. No per-neuron Python loops — operate on whole arrays at once. (Loops inside GPU kernels or I/O submission are fine.)
+  - **Batched everything.** All methods take and return arrays/tensors. No DO NOT iterate through every neuron/synapse it will take too long — operate on whole arrays at once. (Loops inside GPU kernels or I/O submission are fine.)
   - **Low latency.** Every method is on a hot path; research ways to cut latency (vectorized ops, batched I/O, avoiding small transfers).
   - **Tier constants:**
   
