@@ -63,6 +63,7 @@ TODO
   Reports how many neurons a tier holds and how many more fit.
   
   - Counted in neurons.
+  - Includes neurons in transit for both where they are going, and where they are. 
   - **Build this last** — it depends on record size, so the record format must be final first.
   
   ### `allocate(tier, n) -> (ids, addresses)`
